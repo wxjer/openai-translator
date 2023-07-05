@@ -3,8 +3,8 @@ import { createParser } from 'eventsource-parser'
 import { IBrowser, ISettings } from './types'
 import { getUniversalFetch } from './universal-fetch'
 
-export const defaultAPIURL = 'https://api.ohmygpt.com/'
-export const defaultAPIURLPath = '/v1'
+export const defaultAPIURL = 'https://api.ohmygpt.com/v1'
+export const defaultAPIURLPath = '/chat/completions'
 export const defaultProvider = 'OpenAI'
 export const defaultAPIModel = 'gpt-3.5-turbo'
 
