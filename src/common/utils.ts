@@ -3,13 +3,13 @@ import { createParser } from 'eventsource-parser'
 import { IBrowser, ISettings } from './types'
 import { getUniversalFetch } from './universal-fetch'
 
-export const defaultAPIURL = 'https://api.ohmygpt.com/v1'
-export const defaultAPIURLPath = '/chat/completions'
+export const defaultAPIURL = 'https://api.ohmygpt.com'
+export const defaultAPIURLPath = '/v1/chat/completions'
 export const defaultProvider = 'OpenAI'
 export const defaultAPIModel = 'gpt-3.5-turbo'
 
-export const defaultChatGPTAPIAuthSession = 'https://api.ohmygpt.com/v1/auth/session'
-export const defaultChatGPTWebAPI = 'https://api.ohmygpt.com/v1/backend-api'
+export const defaultChatGPTAPIAuthSession = 'https://chat.openai.com/api/auth/session'
+export const defaultChatGPTWebAPI = 'https://chat.openai.com/backend-api'
 
 export const defaultAutoTranslate = false
 export const defaultTargetLanguage = 'zh-Hans'
